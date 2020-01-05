@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.copyrights{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background: #1BBD36;
+    font-family: 'Poppins', sans-serif;
+}
+.copyrights p{
+    font-size: 20px;
+    color: #333;
+}
+.copyrights h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 450px){
+    .copyrights{
+        height: 150px;
+    }
+}

@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lakki+Reddy|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Lakki Reddy', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+#vHeader{
+    position: relative;
+}
+
+.videoHead{
+    width: 100%;
+    min-height: 70vh;
+    position: relative;
+    display: flex;
+    
+}
+
+.videoHead video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.videoHead h2{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 30vw;
+    text-align: center;
+    text-transform: uppercase;
+    mix-blend-mode: screen;
+}
+
+.homeIconDiv{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 777;
+    background: transparent;
+}
+
+.homeIconDiv a{
+    color: #8bbabb;
+    text-decoration: none;
+}
+
+#homeIcon{
+    font-size: 30px;
+}
+
+.eventHeading{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+}
+
+.galleryContainer{
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-auto-flow: dense;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;
+}
+
+.event2{
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;
+}
+
+.photoBox{
+    position: relative;
+}
+
+.event1 .a, .event1 .c, .event1 .b, .event1 .i, .event1 .g, .event1 .j{
+    grid-column: span 2;
+}
+
+.event1 .c
+{
+    grid-row: span 2;
+}
+
+.event2 .b, .event2 .k
+{
+    grid-column: span 2;
+}
+
+.photoBox img{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .galleryContainer{
+        grid-template: "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh;
+    }
+    .event2{
+        grid-template: "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh
+                       "1fr 1fr 1fr 1fr" 25vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .galleryContainer{
+        grid-template: "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh;
+    }
+    .event1 .c{
+        grid-row: span 1;
+    }
+
+    .event1 .b{
+        grid-column: span 3;
+    }
+    .event2{
+        grid-template: "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh
+                       "1fr 1fr 1fr" 33.3vh;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .galleryContainer{
+        grid-template: "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh;
+    }
+    .event1 .c{
+        grid-row: span 1;
+    }
+
+    .event1 .b{
+        grid-column: span 2;
+    }
+    .event2{
+        grid-template: "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh
+                       "1fr 1fr" 33vh;
+    }
+    
+    .event2 .d, .event2 .f, .event2 .j, .event2 .l, .event2 .m{
+        grid-column: span 2;
+    }
+    .eventHeading{
+        margin-top: 20px;
+    }
+    .videoHead{
+        z-index: -10;
+    }
+    #vHeader{
+        height: 30vh;
+    }
+}
+
+.copyrights{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background: #ffd369;
+}
+.copyrights p{
+    font-size: 20px;
+    color: #333;
+}
+.copyrights h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 450px){
+    .copyrights{
+        height: 150px;
+    }
+}

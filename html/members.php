@@ -1,0 +1,639 @@
+<html>
+    <head>
+        <title>EEEA Team</title>
+        <link href="../css/try.css" type="text/css" rel="stylesheet">
+        <link href="../css/team.css" type="text/css" rel="stylesheet">
+        <link href="../css/copyrights.css" type="text/css" rel="stylesheet">
+        <link href="../css/feedback.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../fontawesome-free-5.10.2-web/css/all.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navigation">
+                <input type="checkbox" id="ckd">
+                <div class="logo">
+                    <p><span>EEEA</span><span>ssociation</span></p>
+                </div>
+                <label for="ckd" class="menu-toggle">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </label>
+                <div class="nav-wrapper">
+                    <ul class="navi-ul">
+                        <li><a href="../html/main_page.html" target="blank">Home</a></li> 
+                        <li><a href="../html/underconstruction.html" target="blank">Gallery</a></li>
+                        <li><a href="../html/members.php" target="blank" class="active">Team</a></li>
+                        <li><a href="../html/underconstruction.html" target="blank">Faculty</a></li>
+                        <li><a href="../html/underconstruction.html" target="blank">Queries</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="team-members">
+            <!-- The Code for displaying office bearers -->
+            <div class="total-content">
+                <h2>Office bearers</h2>
+                <div class="container1">
+                    <div class="box">
+                        <div class="img-bx">
+                            <img src="../images/secretary.jpg">
+                            <div id="posting">
+                                <p>Secretary</p>
+                            </div>
+                        </div>
+                        <div class="img-exp">
+                            <h3>Secretary</h3>
+                            <p>Natarajan S<br/>BE-EEE(SW)<br/>5<sup>th</sup> year</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-bx">
+                            <img src="../images/co-secretary.jpg">
+                            <div id="posting">
+                                <p>Co-Secretary</p>
+                            </div>
+                        </div>
+                        <div class="img-exp">
+                            <h3>Co-Secretary</h3>
+                            <p>Ashwanth Balaji S<br/>BE-EEE(Regular)<br/>4<sup>th</sup> year<br/></p>
+                         </div>
+                    </div>
+                    <div class="box">
+                            <div class="img-bx">
+                                    <img src="../images/house_secretary.jpg">
+                                <div id="posting">
+                                        <p>House Secretary</p>
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>House Secretary</h3>
+                                <p>Kavya M.M<br/>BE-EEE(Regular)<br/>4<sup>th</sup> year<br/></p>
+                            </div>
+                    </div>
+                    <div class="box">
+                            <div class="img-bx">
+                                    <img src="../images/tresurer.jpg">
+                                <div id="posting">
+                                        <p>Tresurer</p>
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>Tresurer</h3>
+                                <p>Yogesh<br/>BE-EEE(SW)<br/>4<sup>th</sup> year<br/></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Code for displaying Joint Secratary -->
+
+            <div class="total-content">
+                <h2>Joint Secretary</h2>
+                <div class="container1">
+                    <div class="box">
+                        <div class="img-bx">
+                            <img src="../images/JS_amarnath.jpg">
+                             <div id="posting">
+                                <p>Joint-Secretary</p>
+                            </div>
+                        </div>
+                        <div class="img-exp">
+                            <h3>Joint-Secretary</h3>
+                            <p>Amarnath K<br/>BE-EEE(SW)<br/>4<sup>th</sup> year</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-bx">
+                            <img src="../images/JS_naveen.jpg">
+                            <div id="posting">
+                                <p>Joint-Secretary</p>
+                            </div>
+                        </div>
+                        <div class="img-exp">
+                            <h3>Joint-Secretary</h3>
+                            <p>Naveen R<br/>BE-EEE(SW)<br/>3<sup>rd</sup> year<br/></p>
+                         </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-bx">
+                            <img src="../images/JS_sivasedhu.png">
+                            <div id="posting">
+                                <p>Joint-Secretary</p>
+                            </div>
+                        </div>
+                        <div class="img-exp">
+                            <h3>Joint-Secretary</h3>
+                            <p>Sivasedhu S<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year<br/></p>
+                         </div>
+                    </div>
+                    <div class="box">
+                            <div class="img-bx">
+                                    <img src="../images/JS_buvanesh.jpg">
+                                <div id="posting">
+                                        <p>Joint-Secretary</p>
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>Joint-Secretary</h3>
+                                <p>Buvanesh T<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year<br/></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Code for displaying Executives -->
+
+                <div class="total-content">
+                    <h2>Executives</h2>
+                    <div class="container1">
+                        <div class="box">
+                            <div class="img-bx">
+                                <img src="../images/EX_priyadharsan.jpg">
+                                <div id="posting">
+                                    <p>Executive</p> 
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>Executive</h3>
+                                <p>Priyadharshan M<br/>BE-EEE(SW)<br/>4<sup>th</sup> year</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img-bx">
+                                <img src="../images/EX_nitheesh.jpg">
+                                <div id="posting">
+                                    <p>Executive</p>
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>Executive</h3>
+                                <p>Nitheesh<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year<br/></p>
+                             </div>
+                        </div>
+                        <div class="box">
+                            <div class="img-bx">
+                                <img src="../images/EX_roshini.png">
+                                <div id="posting">
+                                    <p>Executive</p>
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>Executive</h3>
+                                <p>Rosini<br/>BE-EEE(SW)<br/>3<sup>rd</sup> year<br/></p>
+                             </div>
+                        </div>
+                        <div class="box">
+                                <div class="img-bx">
+                                        <img src="../images/EX_aravindh.jpg">
+                                    <div id="posting">
+                                            <p>Executive</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Executive</h3>
+                                    <p>Aravindh Bharadwaj N<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year<br/></p>
+                                </div>
+                        </div>
+                        <div class="box">
+                                <div class="img-bx">
+                                        <img src="../images/EX_mirudula.jpg">
+                                    <div id="posting">
+                                            <p>Executive</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Executive</h3>
+                                    <p>Mirdula K<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Code for Website team -->
+
+                <div class="total-content">
+                        <h2>Website Team Head</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/web-head.jpg">
+                                    <div id="posting">
+                                        <p>Head</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Head</h3>
+                                    <p>Dhinna<br/>BE-EEE(Regular)<br/>4<sup>th</sup> year</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="total-content">
+                        <h2>Website Developement Members</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/WDM_hariharan.jpg">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Hariharan<br/>BE-EEE(SW)<br/>3<sup>rd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/WDM_umesh.jpg">
+                                    <div id="posting">
+                                        <p>Member</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Umesh B<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year</p>
+                                 </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                            <img src="../images/WDM_jaidurkesh.jpg">
+                                        <div id="posting">
+                                                <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Jaidurkesh S<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                                    </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                            <img src="../images/WDM_abinaya.jpg">
+                                        <div id="posting">
+                                                <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Abinaya S<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year<br/></p>
+                                    </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                            <img src="../images/WDM_surya.jpg">
+                                        <div id="posting">
+                                                <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Surya G<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code for Events team -->
+
+                <div class="total-content">
+                        <h2>Events And communication Team Head</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/event-head.jpg">
+                                    <div id="posting">
+                                        <p>Head</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Head</h3>
+                                    <p>Shaktheswar<br/>BE-EEE(SW)<br/>5<sup>th</sup> year</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="total-content">
+                        <h2>Events And communication Team Members</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/ECM_keerthi.jpg">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Keerthi Vandhani<br/>BE-EEE(SW)<br/>3<sup>rd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/ECM_sreekar.png">
+                                    <div id="posting">
+                                        <p>Member</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Vattipalli Sreekar<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year</p>
+                                 </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/ECM_rohit.jpg">
+                                    <div id="posting">
+                                        <p>Member</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Rohit<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year</p>
+                                 </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                            <img src="../images/ECM_venkatesh.jpg">
+                                        <div id="posting">
+                                                <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Venkatesh B<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year<br/></p>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- Code for Magazine team -->
+
+                <div class="total-content">
+                        <h2>Circuit News Magazine team Head</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/mag-head.jpg">
+                                    <div id="posting">
+                                        <p>Head</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Head</h3>
+                                    <p>Harshini<br/>BE-EEE(SW)<br/>4<sup>th</sup> year</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="total-content">
+                        <h2>Circuit News Magazine team Members</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/MAGM_deepana.jpg">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Deepana M<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/MAGM_manju.jpg">
+                                    <div id="posting">
+                                        <p>Member</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Manju S<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year</p>
+                                 </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                            <img src="../images/MAGM_deepika.jpg">
+                                        <div id="posting">
+                                                <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Deepika R<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                                    </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                            <img src="../images/MAGM_sona.jpg">
+                                        <div id="posting">
+                                                <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Sona Harini<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- Code for Alumini team -->
+
+                <div class="total-content">
+                        <h2>Alumini Association team Head</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/alumini-head.jpg">
+                                    <div id="posting">
+                                        <p>Head</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Head</h3>
+                                    <p>Gokula Krishnan S<br/>BE-EEE(Regular)<br/>4<sup>th</sup> year</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/alumini-head2.jpg">
+                                    <div id="posting">
+                                        <p>Head</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Head</h3>
+                                    <p>Mythili J<br/>BE-EEE(SW)<br/>5<sup>th</sup> year</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="total-content">
+                        <h2>Alumini Association team Members</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/AAM_kiruba.png">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Kiruba Thomas M<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/AAM_bargav.png">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Bhargav Anumolu<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/AAM_sakthivel.jpg">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Sakthivel C<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/AAM_vigasini.jpg">
+                                    <div id="posting">
+                                        <p>Member</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Vigasini R<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year</p>
+                                 </div>
+                            </div>
+                    </div>
+                </div> 
+                
+                
+                <!-- Code for Publicity team -->
+
+                <div class="total-content">
+                        <h2>Media Publicity team Head</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/media-head.jpg">
+                                    <div id="posting">
+                                        <p>Head</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Head</h3>
+                                    <p>Shirley Grace Jetty<br/>BE-EEE(Regular)<br/>4<sup>th</sup> year</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="total-content">
+                        <h2>Media Publicity team Members</h2>
+                        <div class="container1">
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/MPM_niyas.jpg">
+                                    <div id="posting">
+                                        <p>Member</p> 
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Niyas Ahamed F<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year<br/></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-bx">
+                                    <img src="../images/MPM_rohit.jpg">
+                                    <div id="posting">
+                                        <p>Member</p>
+                                    </div>
+                                </div>
+                                <div class="img-exp">
+                                    <h3>Member</h3>
+                                    <p>Rohit M<br/>BE-EEE(Regular)<br/>2<sup>nd</sup> year</p>
+                                 </div>
+                            </div>
+
+                            <div class="box">
+                                    <div class="img-bx">
+                                        <img src="../images/MPM_reshma.jpg">
+                                        <div id="posting">
+                                            <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Reshma Madhumitha<br/>BE-EEE(SW)<br/>3<sup>rd</sup> year</p>
+                                     </div>
+                            </div>
+                            <div class="box">
+                                    <div class="img-bx">
+                                        <img src="../images/MPM_subiksha.jpg">
+                                        <div id="posting">
+                                            <p>Member</p>
+                                        </div>
+                                    </div>
+                                    <div class="img-exp">
+                                        <h3>Member</h3>
+                                        <p>Subiksha Rajan V<br/>BE-EEE(Regular)<br/>3<sup>rd</sup> year</p>
+                                     </div>
+                            </div>
+                    </div>
+                </div>      
+                <div class="total-content">
+                    <h2>Official Photographer</h2>
+                    <div class="container1">
+                        <div class="box">
+                            <div class="img-bx">
+                                <img src="../images/photographer.jpeg">
+                                <div id="posting">
+                                    <p>Photographer</p> 
+                                </div>
+                            </div>
+                            <div class="img-exp">
+                                <h3>Photographer</h3>
+                                <p>Vijay Shankar P<br/>BE-EEE(SW)<br/>2<sup>nd</sup> year<br/></p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+                <!-- feedback providing area -->
+                <div class="feedback">
+                    <h2 class="f_head">Feedback your thoughts <br/>for the improvements...</h2>
+                    <form id="f_form" action="feedback.php" action="post">
+                        <textarea form="f_form" rows="6" cols="30" placeholder="Enter your feedback here..." class="f_textarea" name="f_msg" required="required"></textarea>
+                        <button type="submit" class="submit_btn"><i class="far fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="copyrights">
+                    <h4>Copyrights <br/>Web Designing Team EEEA, PSG TECH</h4>
+                    <p>Designed by,<br/>Umesh Balamurugan BE-EEE</p>
+                </div>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+.team-members{
+    position: relative;
+    top:80px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.total-content{
+    display: block;
+}
+
+.total-content h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.container1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    position: relative;
+    width: 275px;
+    height: 275px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.box .img-bx::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.box .img-bx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#posting{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background: #E6DEE0;
+    color: #333;
+    bottom: 0;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box .img-exp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.img-exp h3{
+    font-size: 27px;
+    color: #fff;
+    margin-bottom: 25px;
+    bottom: 0;
+    transform: translateY(200px);
+}
+
+.img-exp p{
+    font-size: 18px;
+    color: #fff;
+    transform: translateY(200px);
+}
+
+.box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.box:hover .img-bx::before{
+    z-index: 2;
+    background: linear-gradient(180deg, rgb(143, 197, 152), #333);
+    transition: 0.5s ease;
+}
+
+.box:hover .img-bx #posting{
+    display: none;
+}
+
+.box:hover .img-exp h3{
+    transform: translateY(0);
+    transition: 0.6s;
+}
+
+.box:hover .img-exp p{
+    transform: translateY(0);
+    transition: 0.7s;
+}

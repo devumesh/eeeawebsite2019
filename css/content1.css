@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.description{
+    background-image: url(../images/content-back2.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desc1{
+    display: flex;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #E6DEE0;
+    opacity: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.eeea-logo img{
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 10px; 
+    opacity: 1;   
+}
+
+.eeea-desc{
+    justify-content: center;
+    padding: 20px 10px 10px 5px;
+}
+
+.explore-btn{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 8px 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background: #00456B;
+    font-size: 18px;
+    color: #E6DEE0;
+    border-radius: 50px;
+}
+
+.explore-btn:hover{
+    background: #00284B;
+}
+
+.eeea-desc p{
+    color: #333;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 690px){
+    .desc1{
+        display: block;
+        width: 90%;
+        top: 55%;
+    }
+
+    .eeea-logo{
+        justify-content: center;
+    }
+    .eeea-logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .explore-btn{
+        font-size: 15px;
+    }
+}
