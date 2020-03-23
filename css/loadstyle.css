@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loader_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #204051;
+    box-sizing: border-box;
+    z-index: 100000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loader{
+    width: 150px;
+    height: 100px;
+    display: flex;
+}
+
+.loader_bar{
+    width: calc(100% / 7);
+    height: 100%;
+    margin: 2px 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.loader_bar:nth-child(2) .barInner{
+    animation-delay: 0.4s;
+}
+
+.loader_bar:nth-child(3) .barInner{
+    animation-delay: 0.8s;
+}
+
+.loader_bar:nth-child(4) .barInner{
+    animation-delay: 0.55s;
+}
+
+.loader_bar:nth-child(5) .barInner{
+    animation-delay: 0.2s;
+}
+
+.loader_bar:nth-child(6) .barInner{
+    animation-delay: 0.65s;
+}
+
+.loader_bar:nth-child(7) .barInner{
+    animation-delay: 1s;
+}
+
+@keyframes loader{
+    0%, 100%{
+        height: 0%;
+    }
+    50%{
+        height: 100%;
+    }
+}
+
+.barInner{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(#18b0b0, #116979);
+    height: 0%;
+    bottom: 0;
+    animation: loader 0.75s infinite ease-in-out;
+}
+
+.text{
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+.loader_bar:nth-child(5) .barInner .text{
+    padding-left: 4px;
+}
+
+
